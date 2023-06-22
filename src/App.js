@@ -13,7 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { data } from 'autoprefixer';
 
 function App() {
-  const [query, setQuery] = useState({ q: "berlin" });
+  const [query, setQuery] = useState({ q: "dharmavram" });
   const [units, setUnits] = useState("metric");
   const [weather, setWeather] = useState(null);
 
